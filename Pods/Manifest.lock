@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Stripe (21.9.0):
+    - Stripe/Stripe3DS2 (= 21.9.0)
+    - StripeCore (= 21.9.0)
+    - StripeUICore (= 21.9.0)
+  - Stripe/Stripe3DS2 (21.9.0):
+    - StripeCore (= 21.9.0)
+    - StripeUICore (= 21.9.0)
+  - StripeCore (21.9.0)
+  - StripeUICore (21.9.0):
+    - StripeCore (= 21.9.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Stripe (= 21.9.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Stripe
+    - StripeCore
+    - StripeUICore
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Stripe: 41c3d261501e1dc84755b1bdabdaae50ebf92b53
+  StripeCore: 2ea9531e863ef20f191a0d61f00dedb7f061baef
+  StripeUICore: a0f9e40520823d34c63baec0782fc4a0c7fb7484
+
+PODFILE CHECKSUM: 633c55bfaf17c0ef31db924870cd7ce07565920b
+
+COCOAPODS: 1.11.2
